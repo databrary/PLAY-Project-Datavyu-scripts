@@ -5,10 +5,10 @@ require 'Datavyu_API.rb'
 
 begin
 	#Create new column
-	babyloc_rel = createNewColumn("babyloc_rel", "loc_lfhc")
-  momloc_rel = createNewColumn("momloc_rel", "loc_lf")
-  babyobject_rel = createNewColumn("babyobject_rel", "object")
-  momobject_rel = createNewColumn("momobject_rel", "object")
+	babyloc_rel = createNewColumn("babyloc_rel", "loc_l-f-h-c")
+  momloc_rel = createNewColumn("momloc_rel", "loc_l-f")
+  babyobject_rel = createNewColumn("babyobject_rel", "o")
+  momobject_rel = createNewColumn("momobject_rel", "o")
 
   #Write the new column to Datavyu's spreadsheet
 	setColumn(babyloc_rel)
